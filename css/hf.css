@@ -1,0 +1,73 @@
+ul li a{
+    color: white;
+    display: block;
+    width: 60px;
+}
+.nav a:hover{
+    color: orange;
+    display: block;
+    width: 60px;
+}
+div.footer{
+    height:35px;
+}
+ul.nav1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+ul.nav1 li {
+  float: left;
+}
+
+ul.nav1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.jumbotron.judul{
+    padding: 0;
+}
+.sidenav ul{
+    padding-top: 55px;
+}
+.sidenav ul a{
+    color: #482273;
+    text-decoration: none;
+    display: block;
+}    
+.sidenav ul li{
+    list-style-type: none;
+    border-radius: 7px;
+    padding-left: 1em;
+}
+.sidenav ul li:hover{
+    background-color: #482273;
+}
+.sidenav ul a:hover{
+    color: white;
+}
+div.judulhalaman{
+    background-color: #482273; 
+    display: inline-block; 
+    color: white; 
+    margin-left: 2em; 
+    padding: 2px 5px; 
+    font-size: 16px; 
+    border-radius: 7px;
+}
+
+/* max width 780px */
+@media screen and (max-width:768px){
+    div.hilang{
+        display: none;
+    }
+    div.ungu{
+        background-color: #482273 !important;
+    }
+} 
